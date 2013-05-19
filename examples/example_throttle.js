@@ -4,7 +4,7 @@
 // Demonstrates the limit on concurrently executing tasks.
 // ---------------------------------------------------------------------------
 
-var Scheduler = require('./nschedule');
+var Scheduler = require('nschedule');
 
 var TASK_DURATION = 900;
 var TICK_IN_MS = 300;

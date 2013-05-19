@@ -4,7 +4,7 @@
 // Demonstrates some common scheduling frequency and recurrence patterns.
 // ---------------------------------------------------------------------------
 
-var Scheduler = require('./nschedule');
+var Scheduler = require('nschedule');
 
 // Create a scheduler that will not execute more than 2 tasks
 // at a time.
