@@ -1,0 +1,24 @@
+{
+    "name": "nschedule",
+    "description": "Task scheduler with concurrency limits.",
+    "author": "Thomas Bratt",
+    "license" : "MIT",
+    "version": "0.1.0",
+    "private": false,
+    "dependencies": {
+        "priorityqueuejs": "0.1.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/thomasbratt/NSchedule.git"
+    },
+    "keywords": [
+        "concurrency",
+        "poller",
+        "queue",
+        "scheduler",
+        "task",
+        "timer",
+        "worker"
+    ]
+}
