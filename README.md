@@ -132,3 +132,7 @@ Concurrency Limiting Example
     }
 
 ````
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/thomasbratt/nschedule/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
