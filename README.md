@@ -21,6 +21,9 @@ Some other packages you might want to consider.
 * [flagpoll](https://npmjs.org/package/flagpoll):
   Supports a finite number of task executions (will not reschedule a task
   indefinitely).
+* [node-schedule](https://npmjs.org/package/node-schedule)
+  Cron-like scheduling. From the readme: 'node-schedule is for time-based
+  scheduling, not interval-based scheduling.'
 * [poll](https://npmjs.org/package/poll):
   Work in progress.
 * [pomelo-schedule](https://npmjs.org/package/pomelo-schedule):
