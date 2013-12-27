@@ -9,8 +9,8 @@ Features
 * Limits the nunmber of concurrently executing tasks. This avoids overloading
   the resource used by the task (a server or network link, for example).
 * Efficiently schedules tasks that must be repeated periodically.
-* Tasks are rescheduled _after_ they have run. This prevents multiple
-  invocations of the same task overlapping.
+* Individual tasks are rescheduled _after_ they have run. This prevents multiple
+  invocations of the same task from overlapping.
 * Allows any combination of: immediate/delayed and periodic/one-shot.
 
 Related Packages
@@ -122,7 +122,7 @@ Concurrency Limiting Example
     });
 
     // Simulate some operation that takes time to complete (backing up a database or
-    // network communications, for exanple).
+    // network communications, for example).
     function busy(name, interval, done){
         if(interval <= 0){
             done();
