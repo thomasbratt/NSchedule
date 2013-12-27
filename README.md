@@ -17,20 +17,21 @@ Related Packages
 ----------------
 
 Some other packages you might want to consider.
-
-* [flagpoll](https://npmjs.org/package/flagpoll):
+* [agenda]((https://npmjs.org/package/agenda)
+  Database-backed cron-like scheduler.
+* [flagpoll](https://npmjs.org/package/flagpoll)
   Supports a finite number of task executions (will not reschedule a task
   indefinitely).
 * [node-schedule](https://npmjs.org/package/node-schedule)
   Cron-like scheduling. From the readme: 'node-schedule is for time-based
   scheduling, not interval-based scheduling.'
-* [poll](https://npmjs.org/package/poll):
+* [poll](https://npmjs.org/package/poll)
   Work in progress.
-* [pomelo-schedule](https://npmjs.org/package/pomelo-schedule):
+* [pomelo-schedule](https://npmjs.org/package/pomelo-schedule)
   Allows cron syntax. No concurrency limits. For example, schedule 100 tasks
   with different intervals in the same section of code and all 100 will trigger
   immediately.
-* [simple-schedule](https://npmjs.org/package/simple-schedule):
+* [simple-schedule](https://npmjs.org/package/simple-schedule)
   All tasks must have the same interval and do not recur.
 
 Installation
