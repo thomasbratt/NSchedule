@@ -1,25 +1,26 @@
 {
-    "name": "nschedule",
-    "description": "Task scheduler with concurrency limits.",
-    "author": "Thomas Bratt",
-    "license" : "MIT",
-    "version": "0.3.0",
-    "private": false,
-    "main": "./lib/nschedule.js",
-    "dependencies": {
-        "priorityqueuejs": "0.1.0"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/thomasbratt/NSchedule.git"
-    },
-    "keywords": [
-        "concurrency",
-        "poller",
-        "queue",
-        "scheduler",
-        "task",
-        "timer",
-        "worker"
-    ]
+  "name": "nschedule",
+  "description": "Task scheduler with concurrency limits.",
+  "author": "Thomas Bratt",
+  "license": "MIT",
+  "version": "0.3.0",
+  "private": false,
+  "main": "./lib/nschedule.js",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "priorityqueuejs": "0.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thomasbratt/NSchedule.git"
+  },
+  "keywords": [
+    "concurrency",
+    "poller",
+    "queue",
+    "scheduler",
+    "task",
+    "timer",
+    "worker"
+  ]
 }
