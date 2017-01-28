@@ -17,7 +17,7 @@ Related Packages
 ----------------
 
 Some other packages you might want to consider.
-* [agenda]((https://npmjs.org/package/agenda)
+* [agenda](https://npmjs.org/package/agenda)
   Database-backed cron-like scheduler.
 * [flagpoll](https://npmjs.org/package/flagpoll)
   Supports a finite number of task executions (will not reschedule a task
