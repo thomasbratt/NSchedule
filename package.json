@@ -7,6 +7,7 @@
   "private": false,
   "main": "./lib/nschedule.js",
   "dependencies": {
+    "nschedule": "^0.4.0",
     "priorityqueuejs": "0.1.0"
   },
   "repository": {
@@ -21,5 +22,9 @@
     "task",
     "timer",
     "worker"
-  ]
+  ],
+  "scripts": {
+    "test": ""
+  }
 }
+
