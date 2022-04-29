@@ -39,7 +39,7 @@ Some other packages you might want to consider.
 Installation
 ------------
 
-> npm install nschedule
+> npm i nschedule
 
 Common Usage
 ------------
@@ -145,3 +145,11 @@ Concurrency Limiting Example
     }
 
 ````
+
+# License
+
+MIT permissive license. See LICENSE for full license details.
+
+# Source Code Repository
+
+<https://github.com/thomasbratt/NSchedule>
